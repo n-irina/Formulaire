@@ -6,24 +6,24 @@
     <title>My test page</title>
   </head>
   <body>
-      <p>This is my page</p>
+      <p>This is my formular</p>
       <form action="thanks.php" method="post">
           <ul>
              <li>
                 <label for="name">Name:</label>
-                <input type="text" value="Doe" id="name" name="user_name" />
+                <input type="text" value="Doe" id="name" name="user_name" required="required"/>
              </li>
              <li>
                 <label for="fname">First name:</label>
-                <input type="text" value="John" id="fname" name="user_fname" />
+                <input type="text" value="John" id="fname" name="user_fname" required="required"/>
              </li>
              <li>
                 <label for="mail">E-mail:</label>
-                <input type="email" value="john.doe@gmail.com" id="mail" name="user_mail" />
+                <input type="email" value="john.doe@gmail.com" id="mail" name="user_mail" required="required"/>
              </li>
              <li>
                 <label for="phone number">Phone number:</label>
-                <input type="number" value="06 48 56 23 12" id="number" name="user_number" />
+                <input type="number" value="06 48 56 23 12" id="number" name="user_number" required="required"/>
              </li>
              <li>
                 <label for="subject">Choose your subject</label>
